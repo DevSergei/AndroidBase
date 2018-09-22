@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Погода</string>
+    <string name="tv_hello_world">Hello World!</string>
 </resources>
