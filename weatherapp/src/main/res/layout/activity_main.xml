@@ -20,7 +20,7 @@
             android:layout_marginStart="@dimen/default_padding"
             android:layout_marginLeft="@dimen/default_padding"
             android:layout_marginBottom="141dp"
-            android:text="Moscow"
+            android:text="@string/moscow"
             android:textSize="80sp"
             app:layout_constraintTop_toTopOf="temp" />
 
@@ -32,7 +32,7 @@
             android:layout_marginStart="@dimen/default_padding"
             android:layout_marginLeft="@dimen/default_padding"
             android:layout_marginBottom="@dimen/default_padding"
-            android:text="+18"
+            android:text="@string/temp_18"
             android:textSize="80sp"
             app:layout_constraintBottom_toBottomOf="tv_city"
             app:layout_constraintLeft_toLeftOf="parent"
