@@ -1,4 +1,4 @@
-package base.android.myapplication;
+package base.android.weatherapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

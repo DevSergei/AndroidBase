@@ -1,1 +1,1 @@
-include ':app', ':myapplication'
+include ':lesson1', ':lesson2task1', ':weatherapp'
