@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.AppCompat.Light.DarkActionBar.WeatherStyle">
+        <item name="colorPrimary">#03a9f4</item>
+        <item name="colorPrimaryDark">#0288d1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+
+    </style>
+</resources>

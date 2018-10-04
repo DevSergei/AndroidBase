@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="temp_18">+18</string>
+    <string name="get_weather">Get Weather</string>
+    <string name="moscow">Moscow</string>
+    <string name="yandex_weather">yandex weather</string>
+</resources>

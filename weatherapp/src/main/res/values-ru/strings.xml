@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="temp_18">+18</string>
+    <string name="get_weather">Узнать погоду</string>
+    <string name="moscow">Москва</string>
+    <string name="yandex_weather">Яндекс Погода</string>
+</resources>
