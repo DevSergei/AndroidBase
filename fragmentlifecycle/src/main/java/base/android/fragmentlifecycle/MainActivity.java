@@ -8,7 +8,7 @@ import android.widget.Toast;
 import base.android.fragmentlifecycle.dummy.DummyContent;
 
 public class MainActivity extends AppCompatActivity implements DataFragment.OnFragmentInteractionListener,
-        ListFragment.OnListFragmentInteractionListener {
+                                                               ListFragment.OnListFragmentInteractionListener {
     public static final String tag = "lifecycle";
 
     @Override

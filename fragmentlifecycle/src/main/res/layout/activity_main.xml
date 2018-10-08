@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/fr_data"
-        android:name="base.android.DataFragment"
+        android:name="base.android.fragmentlifecycle.DataFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
