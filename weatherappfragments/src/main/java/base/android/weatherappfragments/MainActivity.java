@@ -1,12 +1,14 @@
 package base.android.weatherappfragments;
 
+import android.os.PersistableBundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ParamsFragment paramsFragment;
+    private Fragment paramsFragment;
     private ResultFragment resultFragment;
 
     @Override
@@ -14,13 +16,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        paramsFragment = new ParamsFragment();
-        resultFragment = new ResultFragment();
+        if (savedInstanceState != null) {
+            paramsFragment = getSupportFragmentManager()
+                    .getFragment(savedInstanceState, "paramsFragment");
+        }
+        else{
+            paramsFragment = new ParamsFragment();
+            resultFragment = new ResultFragment();
+        }
 
-        getSupportFragmentManager()
-                .beginTransaction()
-                .add(R.id.fragment_container, paramsFragment)
-                .commit();
+        if(paramsFragment != null){
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .add(R.id.fragment_container, paramsFragment)
+                        .commit();
+                }
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+        super.onSaveInstanceState(outState, outPersistentState);
+        getSupportFragmentManager().putFragment(outState, "paramsFragment", paramsFragment);
     }
 
     public void startResultFragment(){
