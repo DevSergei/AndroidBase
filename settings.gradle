@@ -1,1 +1,1 @@
-include ':lesson1', ':lesson2task1', ':weatherapp', ':fragmentlifecycle'
+include ':lesson1', ':lesson2task1', ':weatherapp', ':fragmentlifecycle', ':cityinfo', ':weatherappfragments'

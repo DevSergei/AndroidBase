@@ -9,7 +9,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
     private Fragment paramsFragment;
-    private ResultFragment resultFragment;
+    private Fragment resultFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState != null) {
             paramsFragment = getSupportFragmentManager()
                     .getFragment(savedInstanceState, "paramsFragment");
+            resultFragment = getSupportFragmentManager()
+                    .getFragment(savedInstanceState, "resultFragment");
         }
         else{
             paramsFragment = new ParamsFragment();
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
         super.onSaveInstanceState(outState, outPersistentState);
         getSupportFragmentManager().putFragment(outState, "paramsFragment", paramsFragment);
+        getSupportFragmentManager().putFragment(outState, "resultFragment", resultFragment);
     }
 
     public void startResultFragment(){

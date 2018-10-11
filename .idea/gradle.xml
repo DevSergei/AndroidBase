@@ -8,10 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/cityinfo" />
             <option value="$PROJECT_DIR$/fragmentlifecycle" />
             <option value="$PROJECT_DIR$/lesson1" />
             <option value="$PROJECT_DIR$/lesson2task1" />
             <option value="$PROJECT_DIR$/weatherapp" />
+            <option value="$PROJECT_DIR$/weatherappfragments" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
