@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherAppFragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_params_fragment">ParamsFragment</string>
+    <string name="hello_result_fragment">ResultFragment</string>
+    <string name="moscow">Moscow</string>
+    <string name="get_weather">Get the weather</string>
+</resources>
