@@ -11,7 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
-private List<Item> list = new ArrayList<>();
+    private List<Item> list = new ArrayList<>();
+
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
@@ -22,7 +23,7 @@ private List<Item> list = new ArrayList<>();
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
-
+        myViewHolder.name.setText(String.valueOf(i));
     }
 
     @Override
