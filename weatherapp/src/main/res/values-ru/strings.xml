@@ -4,4 +4,7 @@
     <string name="get_weather">Узнать погоду</string>
     <string name="moscow">Москва</string>
     <string name="yandex_weather">Яндекс Погода</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
 </resources>

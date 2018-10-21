@@ -4,4 +4,7 @@
     <string name="get_weather">Get Weather</string>
     <string name="moscow">Moscow</string>
     <string name="yandex_weather">yandex weather</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
 </resources>
